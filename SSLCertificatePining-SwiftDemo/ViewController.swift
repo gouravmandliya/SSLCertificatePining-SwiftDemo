@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        let url = URL(string: "https://yourserver.com/api/secure")!
+
+        NetworkManager.shared.fetchData(from: url) { data in
+            if let data = data {
+                print("✅ Received data: \(data)")
+            } else {
+                print("❌ Failed to fetch data.")
+            }
+        }
     }
-
-
 }
 

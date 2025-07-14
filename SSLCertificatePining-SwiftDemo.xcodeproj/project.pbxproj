@@ -13,7 +13,21 @@
 		35AD84942E24F14500C791B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AD84922E24F14500C791B0 /* Main.storyboard */; };
 		35AD84962E24F14C00C791B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AD84952E24F14C00C791B0 /* Assets.xcassets */; };
 		35AD84992E24F14C00C791B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AD84972E24F14C00C791B0 /* LaunchScreen.storyboard */; };
+		35AD84A72E24F47800C791B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 35AD84A22E24F47800C791B0 /* README.md */; };
+		35AD84AA2E24F47800C791B0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD84A52E24F47800C791B0 /* NetworkManager.swift */; };
+		35AD84B22E24F4DB00C791B0 /* SSLCertificatePining_SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD84B12E24F4DB00C791B0 /* SSLCertificatePining_SwiftDemoTests.swift */; };
+		35AD84B92E24F4ED00C791B0 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD84B82E24F4ED00C791B0 /* NetworkManagerTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35AD84B32E24F4DB00C791B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35AD84812E24F14500C791B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35AD84882E24F14500C791B0;
+			remoteInfo = "SSLCertificatePining-SwiftDemo";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		35AD84892E24F14500C791B0 /* SSLCertificatePining-SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSLCertificatePining-SwiftDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +38,22 @@
 		35AD84952E24F14C00C791B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35AD84982E24F14C00C791B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35AD849A2E24F14C00C791B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35AD84A22E24F47800C791B0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		35AD84A52E24F47800C791B0 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		35AD84AF2E24F4DB00C791B0 /* SSLCertificatePining-SwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSLCertificatePining-SwiftDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35AD84B12E24F4DB00C791B0 /* SSLCertificatePining_SwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCertificatePining_SwiftDemoTests.swift; sourceTree = "<group>"; };
+		35AD84B82E24F4ED00C791B0 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		35AD84862E24F14500C791B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35AD84AC2E24F4DB00C791B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				35AD848B2E24F14500C791B0 /* SSLCertificatePining-SwiftDemo */,
+				35AD84B02E24F4DB00C791B0 /* SSLCertificatePining-SwiftDemoTests */,
 				35AD848A2E24F14500C791B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				35AD84892E24F14500C791B0 /* SSLCertificatePining-SwiftDemo.app */,
+				35AD84AF2E24F4DB00C791B0 /* SSLCertificatePining-SwiftDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,12 +87,31 @@
 				35AD848C2E24F14500C791B0 /* AppDelegate.swift */,
 				35AD848E2E24F14500C791B0 /* SceneDelegate.swift */,
 				35AD84902E24F14500C791B0 /* ViewController.swift */,
+				35AD84A52E24F47800C791B0 /* NetworkManager.swift */,
+				35AD84A12E24F47700C791B0 /* Resources */,
 				35AD84922E24F14500C791B0 /* Main.storyboard */,
 				35AD84952E24F14C00C791B0 /* Assets.xcassets */,
 				35AD84972E24F14C00C791B0 /* LaunchScreen.storyboard */,
 				35AD849A2E24F14C00C791B0 /* Info.plist */,
 			);
 			path = "SSLCertificatePining-SwiftDemo";
+			sourceTree = "<group>";
+		};
+		35AD84A12E24F47700C791B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35AD84A22E24F47800C791B0 /* README.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		35AD84B02E24F4DB00C791B0 /* SSLCertificatePining-SwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				35AD84B82E24F4ED00C791B0 /* NetworkManagerTests.swift */,
+				35AD84B12E24F4DB00C791B0 /* SSLCertificatePining_SwiftDemoTests.swift */,
+			);
+			path = "SSLCertificatePining-SwiftDemoTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +134,24 @@
 			productReference = 35AD84892E24F14500C791B0 /* SSLCertificatePining-SwiftDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		35AD84AE2E24F4DB00C791B0 /* SSLCertificatePining-SwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35AD84B52E24F4DB00C791B0 /* Build configuration list for PBXNativeTarget "SSLCertificatePining-SwiftDemoTests" */;
+			buildPhases = (
+				35AD84AB2E24F4DB00C791B0 /* Sources */,
+				35AD84AC2E24F4DB00C791B0 /* Frameworks */,
+				35AD84AD2E24F4DB00C791B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35AD84B42E24F4DB00C791B0 /* PBXTargetDependency */,
+			);
+			name = "SSLCertificatePining-SwiftDemoTests";
+			productName = "SSLCertificatePining-SwiftDemoTests";
+			productReference = 35AD84AF2E24F4DB00C791B0 /* SSLCertificatePining-SwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +164,10 @@
 				TargetAttributes = {
 					35AD84882E24F14500C791B0 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					35AD84AE2E24F4DB00C791B0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 35AD84882E24F14500C791B0;
 					};
 				};
 			};
@@ -116,6 +185,7 @@
 			projectRoot = "";
 			targets = (
 				35AD84882E24F14500C791B0 /* SSLCertificatePining-SwiftDemo */,
+				35AD84AE2E24F4DB00C791B0 /* SSLCertificatePining-SwiftDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +197,15 @@
 			files = (
 				35AD84992E24F14C00C791B0 /* LaunchScreen.storyboard in Resources */,
 				35AD84962E24F14C00C791B0 /* Assets.xcassets in Resources */,
+				35AD84A72E24F47800C791B0 /* README.md in Resources */,
 				35AD84942E24F14500C791B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35AD84AD2E24F4DB00C791B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,13 +216,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AD84AA2E24F47800C791B0 /* NetworkManager.swift in Sources */,
 				35AD84912E24F14500C791B0 /* ViewController.swift in Sources */,
 				35AD848D2E24F14500C791B0 /* AppDelegate.swift in Sources */,
 				35AD848F2E24F14500C791B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		35AD84AB2E24F4DB00C791B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AD84B92E24F4ED00C791B0 /* NetworkManagerTests.swift in Sources */,
+				35AD84B22E24F4DB00C791B0 /* SSLCertificatePining_SwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35AD84B42E24F4DB00C791B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35AD84882E24F14500C791B0 /* SSLCertificatePining-SwiftDemo */;
+			targetProxy = 35AD84B32E24F4DB00C791B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		35AD84922E24F14500C791B0 /* Main.storyboard */ = {
@@ -336,6 +432,42 @@
 			};
 			name = Release;
 		};
+		35AD84B62E24F4DB00C791B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TRG728PSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gourav.SSLCertificatePining-SwiftDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLCertificatePining-SwiftDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SSLCertificatePining-SwiftDemo";
+			};
+			name = Debug;
+		};
+		35AD84B72E24F4DB00C791B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TRG728PSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gourav.SSLCertificatePining-SwiftDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLCertificatePining-SwiftDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SSLCertificatePining-SwiftDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -353,6 +485,15 @@
 			buildConfigurations = (
 				35AD849E2E24F14C00C791B0 /* Debug */,
 				35AD849F2E24F14C00C791B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35AD84B52E24F4DB00C791B0 /* Build configuration list for PBXNativeTarget "SSLCertificatePining-SwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35AD84B62E24F4DB00C791B0 /* Debug */,
+				35AD84B72E24F4DB00C791B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
